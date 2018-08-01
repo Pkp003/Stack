@@ -8,10 +8,6 @@ if(a.elements[2].checked)
 {
 a.result.value=a.entry.value*a.exit.value;
 }
-if(a.elements[3].checked)
-{
-a.result.value=a.entry.value+a.exit.value;
-}
 if(a.elements[4].checked)
 {
 a.result.value=a.entry.value-a.exit.value;
@@ -42,9 +38,6 @@ a.result.value=a.entry.value/a.exit.value;
 <td>Action</td>
 <td>
 <input type="radio"  name="action" onclick="calc(this.form);">Double
-<br>
-
-<input type="radio" name="action" onclick="calc(this.form);">Add
 <br>
 
 <input type="radio" name="action" onclick="calc(this.form);">Subtract
